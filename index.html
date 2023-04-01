@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="google-site-verification" content="DkYUB-gj1uerUNjOoG7Atu5gLMthLJnwCpXh6YNpIvo" />
+  
+  <title>Blood Management System</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bootstrape.css">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+  <!-- <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet"> -->
+  <script src="bootstrape.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
+
+
+  <style>
+    .abou {
+      width: 98%;
+      margin: auto;
+      text-align: center;
+      padding-top: 8%;
+    }
+
+    .head-des {
+      font-size: 20px;
+      font-weight: 300;
+      padding: 10px;
+      line-height: 20px;
+    }
+
+    .about-col {
+      transition: transform 1s;
+      width: 25%;
+      display: inline-block;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 100px 0px;
+      border-radius: 5px;
+      position: relative;
+      background: white;
+      margin: 2%;
+    }
+
+    .about-col:hover {
+      transform: scale(1.03, 1.03);
+    }
+  </style>
+</head>
+
+<body>
+
+    <!-- preloader section -->
+
+  <div id="preloader">
+    <div id="status"></div>
+  </div>
+
+  <!-- end of preloader section -->
+  
+  <header>
+
+    <!--Fixed navbar code  -->
+
+    <nav class="navbar fixed-top navbar-dark bg-dark">
+      <div class="container-fluid">
+        <!-- <a class="navbar-brand" href="#"> -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img id="blood" src="https://i.ibb.co/V9ZYfFg/logo-final.jpg" alt="This is image" width="50px"
+                style="border-radius: 50%; margin-right: 50px; font-size: xx-large;"> E-Blood Management System</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link" href="#" onclick="scrollWin()" style="margin-left:495px"><i
+                    class="fa fa-fw fa-home"></i>Home</a>
+                <a class="nav-link" href="#" onclick="scrollWin2()"><i class="fa fa-fw fa-envelope"></i>Contact Us</a>
+                <a class="nav-link" href="#scrollspyHeading4"><span class="bi bi-info-circle-fill"></span> About Us</a>
+                <a class="nav-link" href="#scrollspyHeading5"><span class="bi bi-people-fill"></span> Our Partners</a>
+                <a class="nav-link" href="login/login.php"><span class="bi bi-arrow-right-square-fill"></span>
+                  Login</a>
+                <a class="nav-link" href="register/registration.php"><i class="fa fa-fw fa-user"></i>Register</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- </a> -->
+      </div>
+    </nav>
+
+    <!--End navbar code  -->
+
+    <!-- Home Video Code  -->
+
+    <video autoplay muted loop plays-inline id="homevideo">
+      <source src="video/homevideo1.mp4" type="video/mp4">
+    </video>
+    
+    <div class="text-box">
+      <h1> Start </h1>
+      <h1>Saving Lives </h1>
+      <p>Become a donor or request for blood And help save lives</p>
+    </div>
+
+        <!-- End Home Video Code  -->
+  </header>
+
+  <main>
+
+    <!-- what we do -->
+
+    <section id="about-us">
+      <div class="abou">
+        <h1 class="heading">What is this all about ?</h1> <br>
+        <p class="head-des" class="text">We solve the problem of blood emergencies by connecting <span
+            class="one-line"><br></span> blood donors directly with people in blood need. </p>
+        <div class="row">
+          <div class="about-col" style="margin-left:125px">
+            <div class="image">
+              <img src="https://i.ibb.co/VMgmw0V/drop.png">
+            </div>
+            <h3>What we do ?</h3>
+            <p>We connect blood donors with recipients, without any intermediary such as blood banks, for an
+              efficient and seamless process.</p>
+          </div>
+          <div class="about-col">
+            <div class="image">
+              <img src="https://i.ibb.co/0BtTNB5/innovation.png">
+            </div>
+            <br>
+            <h3>Innovative</h3>
+            <p>BMS is an innovative approach to address global health.We provide <span>immediate
+                access</span> to blood donors.</p>
+          </div>
+          <div class="about-col">
+            <div class="image">
+              <img src="https://i.ibb.co/yXZxv48/netwotk.png">
+            </div>
+            <h3>Network</h3>
+            <p>BMS is one of several community organizations working together as a network that
+              responds to emergencies in an efficient manner.</p>
+          </div>
+          <div class="about-col" style="margin-left:125px">
+            <div class="image">
+              <img src="https://i.ibb.co/H40Jt20/noti.png">
+            </div>
+            <h3>Get notified</h3>
+            <p>BMS Connect works with network partners to connect blood donors and recipients
+              through an automated SMS service and a mobile app.</p>
+          </div>
+          <div class="about-col">
+            <div class="image">
+              <img src="https://i.ibb.co/K9Qqxkj/cost.png">
+            </div>
+            <h3>Totally Free</h3>
+            <p>BMS is ultimate goal is to provide an easy -to-use, easy-to-access, fast, efficient,
+              and reliable way to get life-saving blood, totally <span>Free of cost.</span></p>
+          </div>
+          <div class="about-col">
+            <div class="image">
+              <img src="https://i.ibb.co/bR2B9fp/save.png">
+            </div>
+            <h3>Save Life</h3>
+            <p>We are a non profit foundation and our main objective is to make sure that everything is done
+              to protect vulnerable persons.<span>Help
+                us by making a gift!</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end what we do -->
+
+    <!-- contact us Section  -->
+
+    <center>
+      <div style="background-color: #474e5d; color: white;">
+        <br> <br>
+        <h2>Contact Us</h2>
+        <!-- form  -->
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required
+            style="width: 500px; height: 50px;">
+          <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating">
+          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" required
+            style="height: 100px; width: 500px"></textarea>
+          <label for="floatingTextarea2">Comments</label>
+        </div>
+        <!-- buttons -->
+        <br>
+        <input class="btn btn-primary" type="submit" value="Submit">
+        <input class="btn btn-primary" type="reset" value="Reset">
+        <br> <br> <br>
+      </div>
+    </center>
+    <!-- End contact us Section  -->
+
+    <!-- About Us Section  -->
+    <div class="bg-light py-5" id="scrollspyHeading4">
+      <div class="container py-5">
+        <div class="row mb-4">
+          <div class="col-lg-5">
+            <h2 class="display-2 font-weight-light">Our team</h2>
+          </div>
+        </div>
+
+        <div class="row text-center">
+
+          <!-- Team item-->
+          <div class="col-xl-3 col-sm-6 mb-5" style=" margin-left:300px; margin-right: 100px;" id="about"
+            onmouseover="h();" onmouseleave="h2();">
+            <div class="rounded shadow-sm py-5 px-4"><img src="https://i.ibb.co/M1RQsjd/ronil.jpg" alt="" width="100"
+                class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+              <h5 class="mb-0" id="about" onmouseover="h();" onmouseleave="h2();">Ronil Lakhani</h5><span
+                class="small text-uppercase " id="about" onmouseover="h();" onmouseleave="h2();">Student at Charusat
+                University<br>CSPIT-IT</span>
+              <ul class="social mb-0 list-inline mt-3">
+                <li class="list-inline-item"><a href="https://www.linkedin.com/in/ronil-lakhani-46668b230/"
+                    class="social-link"><i class="fa fa-linkedin"></i></a></li>
+                <li class="list-inline-item"><a href="https://www.instagram.com/r_.o_.n_.i_.l_.999/"
+                    class="social-link"><i class="fa fa-instagram"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- End-->
+
+          <!-- Team item-->
+          <div class="col-xl-3 col-sm-6 mb-5" id="aboutt" onmouseover="h3();" onmouseleave="h4();">
+            <div class="rounded shadow-sm py-5 px-4"><img src="https://i.ibb.co/L9Y6NS9/MyPhoto.jpg" alt="" width="100"
+                class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+              <h5 class="mb-0" id="aboutt" onmouseover="h3();" onmouseleave="h4();">Utsav Kathrotiya</h5><span
+                class="small text-uppercase">Student at Charusat University<br>DEPSTAR-CE</span>
+              <ul class="social mb-0 list-inline mt-3">
+                <li class="list-inline-item"><a href="https://www.linkedin.com/in/utsav-katharotiya-79062621b/"
+                    class="social-link"><i class="fa fa-linkedin"></i></a></li>
+                <li class="list-inline-item"><a href="https://www.instagram.com/_._utsav_0712_._/" class="social-link"><i
+                      class="fa fa-instagram"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- End-->
+
+        </div>
+      </div>
+    </div>
+
+    <!-- End of About Us Section  -->
+
+
+    <!-- Our Partners & Sponsors Section -->
+
+    <div class="partners" id="scrollspyHeading5">
+      <br>
+      <center><b style="font-size: 30px;color:rgb(0, 0, 0)">Our Partners</b></center><br>
+      <marquee width="100%" direction="left" height="auto">
+        <img id="hosptl" src="https://i.ibb.co/cLg9qJj/hospital1.jpg" alt="This is image" width="400vh" height="250vh">
+        <img id="hosptl" src="https://i.ibb.co/RQJ2V97/hospital3.jpg" alt="This is image" width="400vh" height="250vh">
+        <img id="hosptl" src="https://i.ibb.co/N7LLPVF/hospital4.jpg" alt="This is image" width="400vh" height="250vh">
+        <img id="hosptl" src="https://i.ibb.co/C8jtnz4/hospital2.jpg" alt="This is image" width="400vh" height="250vh">
+        <img id="hosptl" src="https://i.ibb.co/g446fCv/hospital5.jpg" alt="This is image" width="400vh" height="250vh">
+        <img id="hosptl" src="https://i.ibb.co/ZVwTLrv/hospital6.jpg" alt="This is image" width="400vh" height="250vh">
+        <img id="hosptl" src="https://i.ibb.co/rs44Brh/hospital7.jpg" alt="This is image" width="400vh" height="250vh">
+        <img id="hosptl" src="https://i.ibb.co/9hwTjcf/hospital9.jpg" alt="This is image" width="400vh" height="250vh">
+        <img id="hosptl" src="https://i.ibb.co/cTdPwFd/hospital-8.jpg" alt="This is image" width="400vh" height="250vh">
+      </marquee>
+    </div>
+    <div class="logos">
+      <br>
+      <center><b style="font-size: 30px;color:rgb(255, 255, 255)">Our Sponsors</b></center>
+      <img id="logo" onmouseover="zoom();" onmouseleave="zout();" src="https://i.ibb.co/kS9LLC7/logo1.jpg" alt="This is image"
+        width="113vh" height="130vh">
+      <img id="logo1" onmouseover="zoom1();" onmouseleave="zout1();" src="https://i.ibb.co/PYb4htY/logo2.jpg" alt="This is image"
+        width="113vh" height="130vh">
+      <img id="logo2" onmouseover="zoom2();" onmouseleave="zout2();" src="https://i.ibb.co/829PsBr/logo4.jpg" alt="This is image"
+        width="113vh" height="130vh">
+      <img id="logo3" onmouseover="zoom3();" onmouseleave="zout3();" src="https://i.ibb.co/k850JbG/logo6.png" alt="This is image"
+        width="113vh" height="130vh">
+      <img id="logo4" onmouseover="zoom4();" onmouseleave="zout4();" src="https://i.ibb.co/4mx8kJP/logo5.png" alt="This is image"
+        width="113vh" height="130vh">
+      <img id="logo5" onmouseover="zoom5();" onmouseleave="zout5();" src="https://i.ibb.co/VgxXJ72/logo5.jpg" alt="This is image"
+        width="113vh" height="130vh">
+      <img id="logo6" onmouseover="zoom6();" onmouseleave="zout6();" src="https://i.ibb.co/18Hj02G/logo8.jpg" alt="This is image"
+        width="113vh" height="130vh">
+      <img id="logo7" onmouseover="zoom7();" onmouseleave="zout7();" src="https://i.ibb.co/DPBNgpG/logo9.jpg" alt="This is image"
+        width="113vh" height="130vh">
+      <img id="logo8" onmouseover="zoom8();" onmouseleave="zout8();" src="https://i.ibb.co/LtTjBjz/logo10.png" alt="This is image"
+        width="113vh" height="130vh">
+      <img id="logo9" onmouseover="zoom9();" onmouseleave="zout9();" src="https://i.ibb.co/mq1Kxj7/logo11.jpg" alt="This is image"
+        width="113vh" height="130vh">
+    </div>
+
+    <!-- End of Our Partners & Section -->
+
+
+  </main>
+
+  <!-- javaScript code  -->
+
+  <script>
+    function h() {
+      document.getElementById("about").style.color = "white";
+      document.getElementById("about").style.backgroundColor = "#282828bf";
+    }
+    function h2() {
+      document.getElementById("about").style.color = "black";
+      document.getElementById("about").style.backgroundColor = "white";
+    }
+    function h3() {
+      document.getElementById("aboutt").style.color = "white";
+      document.getElementById("aboutt").style.backgroundColor = "#282828bf";
+    }
+    function h4() {
+      document.getElementById("aboutt").style.color = "black";
+      document.getElementById("aboutt").style.backgroundColor = "white";
+    }
+
+
+    function zoom() {
+      document.getElementById("logo").style.height = "160px";
+      document.getElementById("logo").style.width = "133px";
+    }
+    function zout() {
+      document.getElementById("logo").style.height = "130px";
+      document.getElementById("logo").style.width = "113px";
+    }
+    function zoom1() {
+      document.getElementById("logo1").style.height = "160px";
+      document.getElementById("logo1").style.width = "133px";
+    }
+    function zout1() {
+      document.getElementById("logo1").style.height = "130px";
+      document.getElementById("logo1").style.width = "113px";
+    }
+    function zoom2() {
+      document.getElementById("logo2").style.height = "160px";
+      document.getElementById("logo2").style.width = "133px";
+    }
+    function zout2() {
+      document.getElementById("logo2").style.height = "130px";
+      document.getElementById("logo2").style.width = "113px";
+    }
+    function zoom3() {
+      document.getElementById("logo3").style.height = "160px";
+      document.getElementById("logo3").style.width = "133px";
+    }
+    function zout3() {
+      document.getElementById("logo3").style.height = "130px";
+      document.getElementById("logo3").style.width = "113px";
+    }
+    function zoom4() {
+      document.getElementById("logo4").style.height = "160px";
+      document.getElementById("logo4").style.width = "133px";
+    }
+    function zout4() {
+      document.getElementById("logo4").style.height = "130px";
+      document.getElementById("logo4").style.width = "113px";
+    }
+    function zoom5() {
+      document.getElementById("logo5").style.height = "160px";
+      document.getElementById("logo5").style.width = "133px";
+    }
+    function zout5() {
+      document.getElementById("logo5").style.height = "130px";
+      document.getElementById("logo5").style.width = "113px";
+    }
+    function zoom6() {
+      document.getElementById("logo6").style.height = "160px";
+      document.getElementById("logo6").style.width = "133px";
+    }
+    function zout6() {
+      document.getElementById("logo6").style.height = "130px";
+      document.getElementById("logo6").style.width = "113px";
+    }
+    function zoom7() {
+      document.getElementById("logo7").style.height = "160px";
+      document.getElementById("logo7").style.width = "133px";
+    }
+    function zout7() {
+      document.getElementById("logo7").style.height = "130px";
+      document.getElementById("logo7").style.width = "113px";
+    }
+    function zoom8() {
+      document.getElementById("logo8").style.height = "160px";
+      document.getElementById("logo8").style.width = "133px";
+    }
+    function zout8() {
+      document.getElementById("logo8").style.height = "130px";
+      document.getElementById("logo8").style.width = "113px";
+    }
+    function zoom9() {
+      document.getElementById("logo9").style.height = "160px";
+      document.getElementById("logo9").style.width = "133px";
+    }
+    function zout9() {
+      document.getElementById("logo9").style.height = "130px";
+      document.getElementById("logo9").style.width = "113px";
+    }
+
+    function scrollWin() {
+      window.scrollTo(0, 160);
+    }
+
+    function scrollWin2() {
+      window.scrollTo(1000, 1500);
+    }
+  </script>
+
+  <!-- end javaScript code  -->
+
+    <!-- preloader section javaScript -->
+
+  <script>
+    window.addEventListener("load", function () {
+      const preloader = document.getElementById("preloader");
+      preloader.style.display = "none";
+    });
+  </script>
+  
+  <!-- end of preloader section javaScript -->
+
+</body>
+
+</html>

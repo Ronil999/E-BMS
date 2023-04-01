@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Neuton:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=NTR&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+
+/* preloader section */
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  z-index: 9999;
+}
+
+#status {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-image: url('/image/loader_gif.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: -100px 0 0 -100px;
+}
+
+/* end of preloader section */
+
+
+/* About us  Section*/
+
+.social-link {
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  border-radius: 50%;
+  transition: all 0.3s;
+  font-size: 0.9rem;
+  color:#282828bf
+}
+
+.social-link:hover,
+.social-link:focus {
+  background: #ddd;
+  text-decoration: none;
+  color: #555;
+} 
+
+/* our Partners */
+
+.logos{
+  margin: 4px; 
+  padding: 10px;
+  width: 100%;
+  background-color: #000000bf;
+}
+.partners{
+  width: 100%;
+  margin: 4px;
+  background-color: #e93939dd;
+}
+#logo{
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 50%;  
+  margin: 15.4px;
+}
+#logo1{
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 50%;  
+  margin: 15.4px;
+}
+#logo2{
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 50%;  
+  margin: 15.4px;
+}
+#logo3{
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 50%;  
+  margin: 15.4px;
+}
+#logo4{
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 50%;  
+  margin: 15.4px;
+}
+#logo5{
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 50%;  
+  margin: 15.4px;
+}
+#logo6{
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 50%;  
+  margin: 15.4px;
+}
+#logo7{
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 50%;  
+  margin: 15.4px;
+}
+#logo8{
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 50%;  
+  margin: 15.4px;
+}
+#logo9{
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 50%;  
+  margin: 15.4px;
+}
+
+/* home video section  */
+
+#homevideo {
+  height: auto;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+}
+
+.text-box {
+  width: 80%;
+  color: black;
+  position: absolute;
+  top: 55%;
+  left: 21%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: "Neuton", serif;
+  line-height: 50px;
+}
+
+.text-box h1 {
+  font-size: 70px;
+  font-family: "Neuton", serif;
+  letter-spacing: 8px;
+}
+
+.text-box p {
+  margin: 10px 0 40px;
+  font-size: 26px;
+  color: black;
+}
